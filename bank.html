@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tính lãi ngân hàng</title>
+  </head>
+  <body>
+    <script>
+      let inputMoney = prompt("Số tiền cần gửi");
+      let inputLai = prompt("Lãi suất ngân hàng");
+      let inputYear = prompt("Số năm cần gửi");
+      let money = parseInt(inputMoney);
+      let lai = parseInt(inputLai);
+      let n = parseInt(inputYear);
+      let total = money + lai * n;
+      alert("Số tiền cả gốc lẫn lãi trong " + n + " là " + total);
+    </script>
+  </body>
+</html>
